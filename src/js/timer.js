@@ -24,8 +24,6 @@ function onInputChange(event) {
             refs.btnEl.addEventListener('click', onBtnClick);
 
             function onBtnClick() {
-                refs.btnEl.setAttribute('disabled', true);
-
                 class CountdownTimer {
                     constructor({ onTick }) {
                         this.onTick = onTick;
